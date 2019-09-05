@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-navigation-bar": "../../component/navigationbar/navigationbar",
+    "caketab":"../../component/caketab/caketab"
+  }
+}

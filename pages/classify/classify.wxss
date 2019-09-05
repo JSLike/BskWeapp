@@ -1,0 +1,17 @@
+/* pages/classify/classify.wxss */
+
+.underrblue{
+  border-bottom:6rpx solid #3fbac1;
+}
+.underrgray{
+  border-bottom: 6rpx solid #ccc;
+}
+
+.tab-fir view{
+  width: 375rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  display: inline-block;
+}
+

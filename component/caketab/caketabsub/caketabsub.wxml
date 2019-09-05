@@ -1,0 +1,23 @@
+<!--component/caketab/caketabsub/caketabsub.wxml-->
+<!-- <text>内容{{submsg.cont}}</text> -->
+
+
+<view class="shop-list">
+  
+
+
+    <view wx:for="{{submsg.cont}}" wx:key="index" class="commodity-box" 
+      bindtap="toTest" data-index="{{item}}"
+    >
+      <image src="{{item.imgurl}}" class="commodity"></image>
+      <text class="title">{{item.title}}</text>
+      <text class="dosing">{{item.dosing}}</text>
+      <view class="price-box">
+        <text class="price">{{item.price}}</text>
+        <text class="weight">/{{item.weight}}</text>
+        <image src="/images/img/icon/gowuche.jpg" class="shopcar"></image>
+      </view>
+
+</view>
+
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-navigation-bar": "../../component/navigationbar/navigationbar",
+    "mp-navigation-scroll": "../../component/navbarscroll/navbarscroll"
+    }
+}

@@ -1,0 +1,29 @@
+<!--component/navbarscroll/navbarscroll.wxml-->
+
+<view class="title-img">
+  <image src="{{cakebox.titlesrc}}">
+  </image>
+</view>
+
+
+<view class="scroll-box">
+
+  <scroll-view scroll-x="true" style="height: 200px;"  scroll-left="{{scrollTop}}"
+  class="scroll-view-box"
+  style=" white-space: nowrap; display: flex"
+  >
+    <view class="scroll-view-item" wx:for="{{cakebox.shoplist}}" wx:key="index">
+      <view class="commodity-box">
+        <image src="{{item.src}}"></image>
+        <text>{{item.title}}</text>
+      </view>
+      
+      <view class="price">
+        <text>￥{{item.price}}</text>
+        /{{item.weight}}
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+

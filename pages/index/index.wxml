@@ -1,0 +1,80 @@
+<!--index.wxml-->
+<mp-navigation-bar titletxt="贝思客"></mp-navigation-bar>
+<!-- <component-tabbar></component-tabbar> -->
+
+<view class="cont">
+  <!-- 城市选择，客服 -->
+  <view class="cont-nav-1">
+    <view class="location-box">
+      <image src="../../images/img/icon/location.jpg" class="location-icon"></image>
+      杭州
+      <image src="../../images/img/icon/arr_1.jpg" class="arr-icon"></image>
+    </view>
+
+    <image src="../../images/img/icon/help.jpg" class="help-icon">
+    </image>
+  </view>
+  <!-- 轮播图 -->
+  <view>
+    <swiper class="swiper-cake" indicator-dots="true" autoplay="true" interval="3000" circular="true" indicator-color="#000" indicator-active-color="#fff">
+      <swiper-item wx:for="{{swipermsg}}" wx:key="index">
+        <image src="{{item.src}}" class="slide-image"></image>
+      </swiper-item>
+    </swiper>
+    <view class="swiper-info">
+      <view class="swiper-info-txt" wx:for="{{swiperinfo}}" wx:key="index">
+        <image src="../../images/img/icon/gogo.jpg" class="swiper-info-img"></image>
+        {{item}}
+      </view>
+    </view>
+  </view>
+
+
+
+  <view>
+    <image src="../../images/img/sy/syimg2.jpg" class="img-xiari"></image>
+  </view>
+  <!-- 蛋糕西点乳品冰激淋 -->
+  <view class="sysimg-box">
+    <view class="sysimg-item" wx:for="{{sysimgdata}}" wx:key="index">
+      <image src="{{item.src}}" class="img-sysimg"></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+
+  <!-- 滚动文字 -->
+  <view class="scroll-box">
+    <view class="inform">
+      通知
+    </view>
+    <scroll-view class="scroll-container" enable-flex="true">
+      <view class="scrolltxt">
+        <view class="marquee_box">
+          <view class="marquee_text" style="transform: translateX(-{{marqueeDistance}}rpx)">
+            <text space style="margin-left:{{marquee_margin}}rpx;">{{text}}</text>
+            <text space style="margin-left:{{marquee_margin}}rpx;">{{text}}</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+
+<!-- 四方格蛋糕特惠推荐列表 -->
+<view class="cake-discounts">
+  <navigator url="{{item.linksrc}}" wx:for="{{cakeDisco8unts}}" wx:key="index" class="cake-discounts-item">
+    <image src="{{item.imgsrc}}" class="cake-discounts-img"></image>
+  </navigator>
+</view>
+
+<!-- scroll组件 -->
+<view>
+<mp-navigation-scroll cakebox="{{cakeboxmsg.cakebox1}}"></mp-navigation-scroll>
+</view>
+<view>
+<mp-navigation-scroll cakebox="{{cakeboxmsg.cakebox2}}"></mp-navigation-scroll>
+</view>
+<view>
+<mp-navigation-scroll  cakebox="{{cakeboxmsg.cakebox3}}"></mp-navigation-scroll>
+</view>
+

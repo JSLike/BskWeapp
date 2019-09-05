@@ -1,0 +1,22 @@
+/* component/caketab/caketab.wxss */
+.subtab{
+display: flex;
+justify-content: center;
+
+}
+
+.subtab-text{
+  padding: 0 28rpx;
+  height: 81rpx;
+  line-height: 81rpx;
+  font-size:28rpx;
+   font-weight: 600;
+}
+
+.targetclass{
+  font-weight: 700;
+  color: #1db0b8;
+}
+.content{
+
+}

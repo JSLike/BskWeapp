@@ -1,0 +1,59 @@
+/* component/caketab/caketabsub/caketabsub.wxss */
+
+.shop-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.commodity-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 340rpx;
+  padding-bottom:41rpx;
+}
+
+.commodity {
+  width: 340rpx;
+  height: 302rpx;
+  border: 1px solid #000;
+}
+
+.title {
+  width: 100%;
+  font-size: 33rpx;
+  font-weight: 500rpx;
+}
+
+.dosing {
+  width: 100%;
+  font-size: 20rpx;
+  color: #adadad;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price-box {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.price {
+  font-size: 30rpx;
+  font-weight: 500rpx;
+}
+
+.weight {
+  font-size: 20rpx;
+  color: #adadad;
+}
+
+.shopcar {
+  width: 49rpx;
+  height: 49rpx;
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+}

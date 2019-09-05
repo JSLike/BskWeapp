@@ -1,0 +1,8 @@
+<!--component/navigationbar/navigationbar.wxml-->
+<view class="nav-bar">
+  <view class="tit-box">
+    <slot name="before" class="arr-icon" bindtap="toBefore"></slot>
+    <text class="title-text">{{titletxt}}</text>
+  </view>
+</view>
+<view class="occupied"></view>

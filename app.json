@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/shop/shop",
+    "pages/classify/classify",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/test/test",
+    "pages/cakeshop/cakeshop",
+    "component/caketab/caketabsub/caketabsub",
+    "component/tabbar/tabbar"
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false,
+    "navigationBarTitleText": "我的微信我的微信我的微信",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#3fbac1",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": false,
+    "selectedColor": "#3fbac1",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/img/sy/icon1.jpg",
+        "selectedIconPath": "images/img/sy/icon1-at.jpg"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/img/sy/icon2.jpg",
+        "selectedIconPath": "images/img/sy/icon2-at.jpg"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "购物车",
+        "iconPath": "images/img/sy/icon3.jpg",
+        "selectedIconPath": "images/img/sy/icon3-at.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/img/sy/icon4.jpg",
+        "selectedIconPath": "images/img/sy/icon4-at.jpg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+<!--pages/classify/classify.wxml-->
+<!-- 顶部标题组件 -->
+<mp-navigation-bar titletxt="贝思客+"></mp-navigation-bar>
+
+<!-- 选项卡 -->
+<!-- 神经病方法！！！！！ -->
+<view wx:if="{{classmsg}}">
+  
+<view class="tab-fir">
+  <view bindtap="bindNumChange" id="0" class="{{tabnum==0?'underrblue':'underrgray'}}">自营</view>
+  <view bindtap="bindNumChange" id="1" class="{{tabnum==1?'underrblue':'underrgray'}}">贝式严选</view>
+</view>
+    <caketab msg="{{classmsg}}" tabnum="{{tabnum}}" targetId="{{targetId}}"></caketab>
+</view>

@@ -1,0 +1,152 @@
+/**index.wxss**/
+
+.cont{
+  padding: 0 33rpx;
+}
+
+/* 城市选择，客服跳转按钮 */
+.cont-nav-1{
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-between;
+  padding: 21rpx 0;
+  font-size: 27rpx;
+}
+.location-box{
+  display: flex;
+  flex-wrap:nowrap;
+  align-items: center;
+}
+
+.location-icon{
+  width:38rpx;
+  height:45rpx;
+}
+.help-icon{
+  width:46rpx;
+  height:46rpx;
+}
+.arr-icon{
+  width: 31rpx;
+  height: 31rpx;
+}
+
+/* 轮播图 */
+.swiper-cake{
+  width: 688rpx;
+  height: 382rpx;
+}
+
+.slide-image{
+  width: 100%;
+ height: 382rpx;
+}
+
+
+
+
+
+.swiper-info{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.swiper-info-txt{
+  font-size: 24rpx;
+  color: #1eb1b8;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-left: 5rpx;
+  margin-right: 32rpx;
+  padding: 21rpx 0;
+}
+.swiper-info-img{
+  width: 28rpx;
+  height: 28rpx;
+
+}
+
+
+
+
+
+
+
+
+/* 夏日冰点价 */
+
+.img-xiari{
+  width: 687.5rpx;
+  height: 160rpx;
+}
+
+
+/* 蛋糕西点乳品冰激淋 */
+.sysimg-box{
+  display: flex;
+  justify-content: space-between;
+}
+.sysimg-item{
+  padding: 18rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sysimg-box image{
+  width: 110rpx;
+  height: 116rpx;
+}
+.sysimg-box text{
+  padding: 26rpx;
+}
+
+
+/* 滚动通知栏 */
+.scroll-box{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  padding:15rpx 0;
+  background: #fff;
+  border-top: 15rpx solid #fafafa;
+  border-bottom: 15rpx solid #fafafa;
+}
+.inform{
+  width: 76rpx;
+  height: 38rpx;
+  line-height: 38rpx;
+  text-align: center;
+  font-size: 24rpx;
+  background: #1eb1b8;
+  border-radius: 10rpx;
+  color: #fff;
+}
+.scroll-container {height: 100%;display: flex;flex-direction: column;justify-content: space-between;box-sizing: border-box;}
+.scrolltxt{padding:0 20rpx;background:#fff;}
+.marquee_box {position:relative;color:#1eb1b8;height:90rpx;display:block;overflow:hidden;} 
+.marquee_text {white-space: nowrap;position:absolute;top:0;font-size:28rpx;height:90rpx;line-height:90rpx;}
+
+
+
+
+
+/* 四方格蛋糕特惠推荐 */
+
+.cake-discounts{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30rpx;
+  justify-content: space-evenly;
+}
+
+.cake-discounts-item{
+  /* padding: 0 8rpx 19rpx; */
+  padding-bottom: 19rpx;
+}
+
+.cake-discounts-img{
+  width: 339rpx;
+  height: 200rpx;
+}

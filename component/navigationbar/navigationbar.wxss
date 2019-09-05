@@ -1,0 +1,32 @@
+/* component/navigationbar/navigationbar.wxss */
+.nav-bar{
+  border:1rpx solid #000;
+  width: 100%;
+  height: 150rpx;
+  background: #3fbac1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+.tit-box{
+  padding-top:30rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+.arr-icon{
+  align-self: flex-end; 
+}
+.title-text{
+  margin-left: 34rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+
+.occupied{
+  width: 100%;
+  height: 150rpx
+}

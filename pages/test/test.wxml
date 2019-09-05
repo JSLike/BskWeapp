@@ -1,0 +1,28 @@
+  <mp-navigation-bar titletxt="贝思客+">
+      <image class="arr-icon" src="/images/img/icon/icon_arr.png" slot="before"></image>
+  </mp-navigation-bar>
+
+
+  <view class="detail-box">
+    <image src="{{msg.imgurl}}" class="tit-img"></image>
+    <view>{{msg.title}}</view>
+    <view>{{msg.price}}</view>
+    <view><text class="color-gray">已选择：</text>{{msg.weight}}</view>
+    <view><text class="color-gray">参考甜度：</text>{{msg.weight}}</view>
+    <view><text class="color-gray">口味类型:</text>{{msg.weight}}</view>
+    <view><text class="color-gray">精选原料：</text>{{msg.content}}</view>
+    <image src="{{msg.imgurl}}"></image>
+    <image src="{{msg.imgurl}}"></image>
+  </view> 
+
+
+  <view class="footer-shopcar">
+    <view class="shopcar-box">
+      <image src="/images/img/icon/gowuche.jpg" class="shopcar-icon">
+      </image>    
+       <view class="shopnum" style="display:{{shopblock}}">{{shopnum}}</view>
+    </view>
+    <view class="goto-shopcar" bindtap="setShop">
+      加入购物车
+    </view>
+  </view>

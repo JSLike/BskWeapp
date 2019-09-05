@@ -1,0 +1,102 @@
+/* pages/shop/shop.wxss */
+
+.shop-list{
+  padding:0 31rpx;
+}
+
+.item-box{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding:20rpx 0;
+  border-bottom: 4rpx solid #e8e8e8;
+}
+
+
+
+
+.shop-img{
+  width: 194rpx;
+  height: 194rpx;
+}
+
+.shopcar-msg{
+  width: 297rpx;
+  margin-left:20rpx;
+}
+
+.shopcar-msg text{
+  display: block;
+}
+.shopcar-msg .title{
+  font-size: 30rpx;
+  font-weight: 500;
+}
+.shopcar-msg .weight{
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #cacaca;
+}
+.shopcar-msg .price{
+  font-size: 30rpx;
+  font-weight: 500;
+  color:#ff4e22;
+}
+
+
+/* 点击选中圆点样式 */
+.select-icon{
+  align-self: center;
+  margin-right: 10rpx;
+  box-sizing: border-box;
+  width: 50rpx;
+  height: 50rpx;
+  border: 10rpx solid #1db0b8;
+  padding: 4rpx;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-icon .sub-icon{
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+}
+.bg{
+  background: #1db0b8;
+}
+
+
+/*加减按钮样式*/
+.num-change{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.num-change view{
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 36rpx;
+  font-weight: 700rpx;
+}
+.num-change .oicon{
+  border-radius: 50%;
+  border:1rpx solid #1db0b8;
+}
+.num-change .shop-list-num{
+  font-size: 26rpx;
+  font-weight: 600rpx;
+  margin:0 10rpx;
+}
+.num-change .reduce{
+  background-color: #fff;
+  color: #1db0b8
+}
+.num-change .add{
+background-color: #1db0b8;
+color: #fff
+}

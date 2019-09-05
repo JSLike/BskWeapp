@@ -1,0 +1,36 @@
+<!--pages/shop/shop.wxml-->
+<mp-navigation-bar titletxt="购物车">
+</mp-navigation-bar>
+
+
+<view class="shop-list">
+    <view wx:for="{{list}}" wx:key="index" class="item-box">
+        <!-- 选中图标 -->
+        <view bindtap="select" class="select-icon" data-index="{{index}}">
+            <view class="sub-icon {{item.selected==true?'bg':''}}">
+            </view>
+        </view>
+        <!--商品图片-->
+        <image src="{{item.imgurl}}" class="shop-img"></image>
+        <!--详情列表-->
+        <view class="shopcar-msg">
+            <text class="title">{{item.title}}</text>
+            <text class="weight">{{item.weight}}</text>
+            <text class="price">{{item.price}}</text>
+        </view>
+
+        <!-- 加减商品 -->
+        <view class="num-change">
+            <view bindtap="reduce" class="reduce oicon" data-item-title="{{item.title}}">
+                -
+            </view>
+            <view class="shop-list-num">
+              {{item.listnum}}
+            </view>
+            <view bindtap="add" class="add oicon">
+                +
+            </view>
+        </view>
+    </view>
+
+</view>

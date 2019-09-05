@@ -1,0 +1,72 @@
+.color-gray{
+  color: #ccc
+}
+.arr-icon{
+  width: 59rpx;
+  height: 52rpx;
+  align-self: flex-end;
+}
+.detail-box{
+  padding-bottom: 97rpx;
+}
+
+.tit-img{
+  width: 100%
+}
+
+
+
+
+
+
+
+/* 加购 */
+.footer-shopcar{
+  box-sizing: border-box;
+  width: 100%;
+  height: 97rpx;
+  border-top: 4rpx solid #ccc;
+  display: flex;
+  flex-wrap: nowrap;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+}
+.shopcar-box{
+  background: #fff;
+  width: 208rpx;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.shopcar-icon{
+  width: 55rpx;
+  height: 55rpx;
+}
+.shopnum{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(25%,-100%);
+  background: #fe0000;
+  border-radius: 50%;
+  color: #fff;
+  width:42rpx;
+  height:42rpx;
+  line-height: 42rpx;
+  font-size: 20rpx;
+  text-align: center;
+}
+
+.goto-shopcar{
+  background: #1db0b8;
+  flex: 1;
+  line-height:97rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 33rpx;
+}
